@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    padding: 10px;
+    background-color: black; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img {
+    width: 250px;
+    height: 150px;
+}
+
+header div nav ul {
+    display: flex;
+    gap: 30px;
+    
+  } 
+
+header div nav ul li a {
+    text-decoration: none;
+    color: rgb(51, 255, 0);
+}
+
+header div nav ul li a:hover {
+    transition: 0.8s;
+    color: red;
+}
+
+.cardapio {
+    background: linear-gradient(180deg, rgb(0, 0, 0), red);
+    padding: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardapio h1 {
+    color: rgb(255, 0, 0);
+    font-weight: 900;
+    font-size: 80px;
+    margin-top: -100px;
+    margin-left: 20px;
+   
+}
+
+.cardapio p {
+    font-size: 60px;
+    font-weight: 900;
+    margin: 20px;
+    color: chartreuse;
+}
+
+.cardapio a button  {
+    border-radius: 50px;
+    width: 250px;
+    height: 60px;
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+    border-color: rgb(51, 255, 0);
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+.cardapio a button:hover {
+    transition: 0.8s;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(51, 255, 0);
+    color: red;
+}
+
+.div-caixa1 {
+    background-color: rgba(240, 248, 255, 0.459);
+    border-radius: 20px;
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+}
+
+.div-caixa1:hover {
+    transition: 0.8s;
+    transform: scale(1.04, 1.04);
+
+}
+
+.div-caixa1 p {
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.div-caixa1 img {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.guacamole {
+    padding: 80px;
+    display: flex;
+    background-color: rgb(21, 255, 0);
+}
+
+.guacamole img {
+    width: 400px;
+    height: auto;
+    margin-left: -80px;
+    margin-top: -80px;
+    margin-bottom: -80px;
+
+}
+
+.div-guaca h2 {
+font-size: 80px;
+font-weight: 900;
+color: black;
+margin-top: -40px;
+}
+
+.div-guaca p {
+    font-size: 60px;
+    font-weight: 900;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: -40px;
+}
+
+.div-guaca span {
+color: red;
+font-weight: bolder;
+}
+
+.delivery {
+    padding: 280px;
+    background-image: url(imagens/mix-grill-7414547_1280.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div-deli {
+    background-color: rgba(240, 248, 255, 0.548);
+    border-radius: 20px;
+    width: 800px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.delivery h2 {
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.delivery a button {
+    border-radius: 50px;
+    width: 250px;
+    height: 60px;
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: rgb(9, 255, 0);
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.delivery a button:hover {
+    transition: 0.8s;
+    transform: scale(1.01, 1.01);
+    color: red;
+}
+
+.localizacao {
+    padding: 180px;
+    background: linear-gradient(180deg, rgb(9, 255, 0), black);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.localizacao h2 {
+    font-size: 80px;
+    font-weight: 900;
+    color: red;
+    margin: 20px;
+    background-color: rgba(240, 248, 255, 0.486);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+ 
