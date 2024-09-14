@@ -1,0 +1,138 @@
+* {
+    padding: 0; /*Zerando o preenchimento*/
+    margin: 0; /*Zerando a margin*/
+    list-style: none; /*Removendo os estilos de listas*/
+    font-family: 'Times New Roman', Times, serif; /*Fonte padrão*/
+}
+
+/*Estilizando o cabeçalho*/
+header { 
+    padding: 10px; /*Tamanho do header*/
+    background-color: black; /*Cor de fundo*/ 
+    display: flex; /*Tornando o header flex - Deixando os itens lado a lado */
+    justify-content: space-around; /*Justificativa do Conteúdo*/
+    align-items: center; /*Centralizando os itens*/
+}
+
+/*Estilizando a imagem*/
+header img {
+    width: 250px; /*Largura da imagem*/
+    height: 150px; /*Altura da imagem*/
+}
+
+/*Estilizando a lista*/
+header div nav ul {
+    display: flex; /*Tornando flex*/
+    gap: 30px; /*Respiro das listas*/
+    
+  } 
+
+/*estilizando a âncora*/
+header div nav ul li a {
+    text-decoration: none; /*Removendo o sublinhado*/
+    color: rgb(51, 255, 0); /*Cor da letra*/
+}
+
+/*Aplicando o hover*/
+header div nav ul li a:hover {
+    transition: 0.8s; /*Tempo de transição*/ 
+    color: red; /*Cor da letra*/
+}
+
+.introducao {
+    background:linear-gradient(180deg, rgba(243, 6, 6, 0.411), rgba(0, 235, 12, 0.397)), url(imagens/plano\ de\ fundo.jpg); /**/
+    padding: 400px; 
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.introducao h1 {
+    color: rgb(255, 0, 0);
+    font-weight: 900;
+    font-size: 80px;
+    margin-top: -250px;
+    margin-left: 35px;
+    margin-bottom: 80px;
+    display: flex;
+}
+
+.introducao div {
+    font-size: 30px;
+    font-weight: 900;
+    margin: 20px;
+    color: chartreuse;
+    background-color: rgba(0, 0, 0, 0.377);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.historia {
+    background:linear-gradient(180deg, rgba(243, 6, 6, 0.411), rgba(0, 235, 12, 0.397)), url(imagens/plano\ de\ fundo.jpg); /**/
+    padding: 400px; 
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.historia h2 {
+    color: rgb(255, 0, 0);
+    font-weight: 900;
+    font-size: 80px;
+    margin-top: -550px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+    display: flex;
+}
+
+.historia div {
+    font-size: 30px; 
+    font-weight: 900;
+    margin: 20px;
+    color: chartreuse;
+    background-color: rgba(0, 0, 0, 0.377);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/*Estilizando o footer*/
+footer {
+    text-align: center; /*Centralizando o texto*/
+    padding: 10px; /*tamanho do footer*/
+    background-color: black; /*cor de fundo*/
+    display: flex; /*deixando flex*/
+    justify-content: space-around; /*justificando o texto*/
+    text-align: center; /*centralizando os itens*/
+}
+
+/*estilizando as âncoras*/
+.div-icons a {
+    text-decoration: none; /*retirando o sublinhado*/
+    color: white; /*cor da letra*/
+    font-size: 45px; /*tamanho da letra*/
+}
+
+/*estilizando os ícones*/
+.div-icons a i {
+    background-color: rgba(240, 248, 255, 0.411); /*cor de fundo*/
+    padding: 7px; /*tamanho do icone*/
+    border-radius: 10px; /*borda do icone*/
+    gap: 20px; /*respiro entre os icones*/
+    margin-top: 40px; /*margem superior*/
+}
+
+/*Aplicando o hover*/
+.div-icons a i:hover {
+background-color: rgba(128, 128, 128, 0.664); /*cor de fundo*/
+transition: 0.6s; /*tempo de transição*/
+font-size: 45px; /*tamanho da fonte*/
+transform: scale(1.1, 1.1); /*Escala de movimentação dos eixos X e Y*/
+}
+
+/*alterações na imagem*/
+.div-img img{
+    width: 250px; /*largura da imagem*/
+    height: 150px; /*altura da imagem*/
+}
